@@ -1,7 +1,7 @@
 
 <template>
     <div>
-        <h1>Home <Bi icon="person-fill" /></h1>
+        <h1>Home <Bi icon="house-fill" /></h1>
     </div>
 </template>
 <script>

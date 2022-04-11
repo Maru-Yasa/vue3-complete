@@ -4,7 +4,6 @@
 </script>
 
 <template>
-  <sidebar-menu :menu="menu" />
   <img alt="Vue logo" src="./assets/logo.png" />
   <i class=" text-primary bi-user-fill"></i>
   <router-view></router-view>
@@ -14,28 +13,6 @@
 export default {
   data(){
     return {
-      menu:[
-          {
-            header: 'Main Navigation',
-            hiddenOnCollapse: true
-          },
-          {
-            href: '/',
-            title: 'Dashboard',
-            icon: 'bi bi-user'
-          },
-          {
-            href: '/charts',
-            title: 'Charts',
-            icon: 'fa fa-chart-area',
-            child: [
-              {
-                href: '/charts/sublink',
-                title: 'Sub Link'
-              }
-            ]
-          }
-      ]
     }
   }
 }
